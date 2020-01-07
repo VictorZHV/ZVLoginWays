@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570BAB7E21DC9E4B0013C089 /* ZVGestureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 570BAB7D21DC9E4B0013C089 /* ZVGestureView.m */; };
+		570BAB8421DCA6130013C089 /* ZVPointBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 570BAB8321DCA6130013C089 /* ZVPointBtn.m */; };
+		570BAB8F21E34D8B0013C089 /* GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 570BAB8E21E34D8B0013C089 /* GestureViewController.m */; };
 		5716075B21D603D600B1C839 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5716075A21D603D600B1C839 /* AppDelegate.m */; };
 		5716075E21D603D600B1C839 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5716075D21D603D600B1C839 /* ViewController.m */; };
 		5716076121D603D600B1C839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5716075F21D603D600B1C839 /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		5716076921D603D700B1C839 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5716076821D603D700B1C839 /* main.m */; };
 		5716077321D603D700B1C839 /* ZVLoginWaysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5716077221D603D700B1C839 /* ZVLoginWaysTests.m */; };
 		5716077E21D603D700B1C839 /* ZVLoginWaysUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5716077D21D603D700B1C839 /* ZVLoginWaysUITests.m */; };
+		5716078D21D6141500B1C839 /* ZVBiometryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5716078C21D6141500B1C839 /* ZVBiometryManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		570BAB7C21DC9E4B0013C089 /* ZVGestureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZVGestureView.h; sourceTree = "<group>"; };
+		570BAB7D21DC9E4B0013C089 /* ZVGestureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZVGestureView.m; sourceTree = "<group>"; };
+		570BAB8221DCA6130013C089 /* ZVPointBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZVPointBtn.h; sourceTree = "<group>"; };
+		570BAB8321DCA6130013C089 /* ZVPointBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZVPointBtn.m; sourceTree = "<group>"; };
+		570BAB8D21E34D8B0013C089 /* GestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureViewController.h; sourceTree = "<group>"; };
+		570BAB8E21E34D8B0013C089 /* GestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureViewController.m; sourceTree = "<group>"; };
 		5716075621D603D600B1C839 /* ZVLoginWays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZVLoginWays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5716075921D603D600B1C839 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5716075A21D603D600B1C839 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		5716077921D603D700B1C839 /* ZVLoginWaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZVLoginWaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5716077D21D603D700B1C839 /* ZVLoginWaysUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZVLoginWaysUITests.m; sourceTree = "<group>"; };
 		5716077F21D603D700B1C839 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5716078B21D6141500B1C839 /* ZVBiometryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZVBiometryManager.h; sourceTree = "<group>"; };
+		5716078C21D6141500B1C839 /* ZVBiometryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZVBiometryManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +113,16 @@
 		5716075821D603D600B1C839 /* ZVLoginWays */ = {
 			isa = PBXGroup;
 			children = (
+				5716078B21D6141500B1C839 /* ZVBiometryManager.h */,
+				5716078C21D6141500B1C839 /* ZVBiometryManager.m */,
+				570BAB8221DCA6130013C089 /* ZVPointBtn.h */,
+				570BAB8321DCA6130013C089 /* ZVPointBtn.m */,
+				570BAB7C21DC9E4B0013C089 /* ZVGestureView.h */,
+				570BAB7D21DC9E4B0013C089 /* ZVGestureView.m */,
 				5716075921D603D600B1C839 /* AppDelegate.h */,
 				5716075A21D603D600B1C839 /* AppDelegate.m */,
+				570BAB8D21E34D8B0013C089 /* GestureViewController.h */,
+				570BAB8E21E34D8B0013C089 /* GestureViewController.m */,
 				5716075C21D603D600B1C839 /* ViewController.h */,
 				5716075D21D603D600B1C839 /* ViewController.m */,
 				5716075F21D603D600B1C839 /* Main.storyboard */,
@@ -263,8 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5716075E21D603D600B1C839 /* ViewController.m in Sources */,
+				570BAB8F21E34D8B0013C089 /* GestureViewController.m in Sources */,
+				5716078D21D6141500B1C839 /* ZVBiometryManager.m in Sources */,
 				5716076921D603D700B1C839 /* main.m in Sources */,
+				570BAB8421DCA6130013C089 /* ZVPointBtn.m in Sources */,
 				5716075B21D603D600B1C839 /* AppDelegate.m in Sources */,
+				570BAB7E21DC9E4B0013C089 /* ZVGestureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +460,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MFGKSM9BNF;
 				INFOPLIST_FILE = ZVLoginWays/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +478,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MFGKSM9BNF;
 				INFOPLIST_FILE = ZVLoginWays/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
